@@ -1,0 +1,80 @@
+[
+  {
+    "item_id": "HITL-REQ-001",
+    "request_id": "REQ-SEED-8891",
+    "timestamp": "2025-02-28T10:15:00Z",
+    "user_id": "USR-ANA-101",
+    "user_role": "Risk_Analyst",
+    "query": "Assess the severity of contractor access finding in cloud bastion hosts.",
+    "draft_response": "Based on the retrieved evidence [DOC-AUD-001], there appears to be an elevated risk regarding stale SSH keys retained by 14 terminated contractors. Management action plans specify ephemeral JIT tokens by June 30, 2025. Recommend monitoring interim compensatory access controls.",
+    "final_response": null,
+    "citations": [
+      "[DOC-AUD-001]"
+    ],
+    "severity_level": "High",
+    "status": "Pending Review",
+    "reviewed_by": null,
+    "analyst_notes": null,
+    "reviewed_at": null
+  },
+  {
+    "item_id": "HITL-REQ-002",
+    "request_id": "REQ-BE491170",
+    "timestamp": "2026-09-04T15:06:36.559179Z",
+    "user_id": "USR-MGR-202",
+    "user_role": "Risk_Manager",
+    "query": "What is the Liquidity Coverage Ratio requirement?",
+    "draft_response": "### Enterprise Risk Intelligence Assessment\n*User Context:* Marcus Vance (Risk Manager) | *Business Unit:* Enterprise Risk | *Clearance:* Restricted\n\nBased on the retrieved enterprise documentation within your authorized scope, here is the relevant risk intelligence:\n\n#### 1. Primary Policy / Finding Overview\n- **Document:** **Enterprise Liquidity Risk Appetite Statement 2025** [DOC-RAS-001] (Confidential - Risk Appetite Statement)\n- **Key Provision:** The bank maintains a conservative liquidity risk appetite to withstand severe idiosyncratic and market-wide stress scenarios. The consolidated Liquidity Coverage Ratio (LCR) must remain above 115% at all times (regulatory minimum is 100%), with an internal early warning trigger at 120%. The Net Stable Funding Ratio (NSFR) minimum target is set at 110%. The survival horizon under the combined severe stress testing model must exceed 90 consecutive calendar days without relying on central bank emergency liquidity facilities.\n\n#### 2. Corroborating Controls & Contextual Evidence\n- **[DOC-REG-003] Basel Committee on Banking Supervision: Basel III / IV Capital & Liquidity Standards:** Basel III/IV capital framework: 4.5% CET1, 2.5% buffer (7.0% total), G-SIB surcharge, and 3.0% leverage backstop. (Category: Regulatory Doc, Jurisdiction: Global)\n- **[DOC-RSK-002] Commercial Real Estate (CRE) Portfolio Stress Test Assessment:** Severe CRE stress test indicates office default rates surging to 6.4%; recommends 60% LTV cap and workout taskforce. (Category: Risk Assessment, Jurisdiction: US)\n\n#### 3. Risk Advisory & Control Implications\nPer the Risk Appetite Statement [DOC-RAS-001], quantitative metrics must be maintained within the specified tolerance bands. Any approach toward early warning thresholds necessitates immediate ALCO or Risk Committee escalation.\n\n> **Advisory Governance Note:** This AI-generated assessment is prepared for Risk Analyst review [DOC-RAS-001]. It represents an advisory summary of authorized records and does not constitute a final regulatory determination until approved by an authorized reviewer.",
+    "final_response": null,
+    "citations": [
+      "DOC-RAS-001",
+      "DOC-REG-003",
+      "DOC-RSK-002"
+    ],
+    "severity_level": "Medium",
+    "status": "Pending Review",
+    "reviewed_by": null,
+    "analyst_notes": null,
+    "reviewed_at": null
+  },
+  {
+    "item_id": "HITL-REQ-003",
+    "request_id": "REQ-374567C6",
+    "timestamp": "2026-09-04T15:06:56.145338Z",
+    "user_id": "USR-ANA-101",
+    "user_role": "Risk_Analyst",
+    "query": "Check wire alert for account with SSN [REDACTED_SSN] and Card [REDACTED_CARD_NUMBER]",
+    "draft_response": "### Enterprise Risk Intelligence Assessment\n*User Context:* Sarah Jenkins (Risk Analyst) | *Business Unit:* Enterprise Risk | *Clearance:* Confidential\n\nBased on the retrieved enterprise documentation within your authorized scope, here is the relevant risk intelligence:\n\n#### 1. Primary Policy / Finding Overview\n- **Document:** **Segregation of Duties (SoD) & Conflict Management Matrix** [DOC-CTL-003] (Internal - Control)\n- **Key Provision:** To prevent unauthorized transactions and internal fraud, employees cannot possess conflicting entitlements. Specifically: No employee may hold both 'Wire Creation' and 'Wire Approval' entitlements. No credit underwriting officer may approve credits where they hold direct portfolio commission incentives. Automated identity governance tools run daily detective scans to identify conflicting role combinations.\n\n#### 2. Corroborating Controls & Contextual Evidence\n- **[DOC-RAS-002] Operational Resilience & Technology Disruption Appetite:** Strict MTPD of 2 hours for payments, Tier-0 core settlement RTO 15 mins, RPO 0, and cloud hot failover. (Category: Risk Appetite Statement, Jurisdiction: Global)\n- **[DOC-POL-002] Commercial Credit Risk Underwriting & Concentration Policy:** Capping single obligor at 15% Tier-1 capital and CRE concentration at 300% of risk-based capital. (Category: Risk Policy, Jurisdiction: US)\n\n#### 3. Risk Advisory & Control Implications\nIn accordance with governance requirements [DOC-CTL-003], first-line operations must enforce documented control standards, subject to second-line validation and ongoing KRI threshold tracking.\n\n> **Advisory Governance Note:** This AI-generated assessment is prepared for Risk Analyst review [DOC-CTL-003]. It represents an advisory summary of authorized records and does not constitute a final regulatory determination until approved by an authorized reviewer.",
+    "final_response": "### Enterprise Risk Intelligence Assessment\n*User Context:* Sarah Jenkins (Risk Analyst) | *Business Unit:* Enterprise Risk | *Clearance:* Confidential\n\nBased on the retrieved enterprise documentation within your authorized scope, here is the relevant risk intelligence:\n\n#### 1. Primary Policy / Finding Overview\n- **Document:** **Segregation of Duties (SoD) & Conflict Management Matrix** [DOC-CTL-003] (Internal - Control)\n- **Key Provision:** To prevent unauthorized transactions and internal fraud, employees cannot possess conflicting entitlements. Specifically: No employee may hold both 'Wire Creation' and 'Wire Approval' entitlements. No credit underwriting officer may approve credits where they hold direct portfolio commission incentives. Automated identity governance tools run daily detective scans to identify conflicting role combinations.\n\n#### 2. Corroborating Controls & Contextual Evidence\n- **[DOC-RAS-002] Operational Resilience & Technology Disruption Appetite:** Strict MTPD of 2 hours for payments, Tier-0 core settlement RTO 15 mins, RPO 0, and cloud hot failover. (Category: Risk Appetite Statement, Jurisdiction: Global)\n- **[DOC-POL-002] Commercial Credit Risk Underwriting & Concentration Policy:** Capping single obligor at 15% Tier-1 capital and CRE concentration at 300% of risk-based capital. (Category: Risk Policy, Jurisdiction: US)\n\n#### 3. Risk Advisory & Control Implications\nIn accordance with governance requirements [DOC-CTL-003], first-line operations must enforce documented control standards, subject to second-line validation and ongoing KRI threshold tracking.\n\n> **Advisory Governance Note:** This AI-generated assessment is prepared for Risk Analyst review [DOC-CTL-003]. It represents an advisory summary of authorized records and does not constitute a final regulatory determination until approved by an authorized reviewer.",
+    "citations": [
+      "DOC-CTL-003",
+      "DOC-RAS-002",
+      "DOC-POL-002"
+    ],
+    "severity_level": "Medium",
+    "status": "Approved",
+    "reviewed_by": "USR-ANA-101",
+    "analyst_notes": "Reviewed finding and agreed with management remediation timeline.",
+    "reviewed_at": "2026-09-04T15:07:05.455992Z"
+  },
+  {
+    "item_id": "HITL-REQ-004",
+    "request_id": "REQ-96F49C57",
+    "timestamp": "2026-09-04T15:15:15.389280Z",
+    "user_id": "USR-ANA-101",
+    "user_role": "Risk_Analyst",
+    "query": "list all the risk management",
+    "draft_response": "### Enterprise Risk Intelligence Assessment\n*User Context:* Sarah Jenkins (Risk Analyst) | *Business Unit:* Enterprise Risk | *Clearance:* Confidential\n\nBased on the retrieved enterprise documentation within your authorized scope, here is the relevant risk intelligence:\n\n#### 1. Primary Policy / Finding Overview\n- **Document:** **Enterprise Risk Management (ERM) Framework & Governance Policy** [DOC-POL-001] (Internal - Risk Policy)\n- **Key Provision:** The Enterprise Risk Management Framework establishes the Three Lines of Defense model across all global banking operations. The First Line (Business Units) owns day-to-day risk identification and control execution. The Second Line (Enterprise Risk Management & Compliance) provides independent challenge, oversight, and policy establishment. The Third Line (Internal Audit) provides independent assurance to the Board Audit Committee. Risk limits are established by the Board Risk Committee and monitored continuously using Key Risk Indicators (KRIs). Any breach of Tier-1 risk limits requires immediate notification to the Chief Risk Officer (CRO) within 4 hours.\n\n#### 2. Corroborating Controls & Contextual Evidence\n- **[DOC-CTL-001] SOX 404 IT General Controls (ITGC) - Change Management & Logical Access:** Enforces peer review, zero critical scan findings, CAB approval, and quarterly 14-day access recertification. (Category: Control, Jurisdiction: US)\n- **[DOC-REG-001] OCC Heightened Standards Bulletin & Supervisory Guidance 2024-11:** OCC Heightened Standards: Board challenge, front-line risk quantification, clawback provisions, and 24h risk reporting. (Category: Regulatory Doc, Jurisdiction: US)\n\n#### 3. Risk Advisory & Control Implications\nIn accordance with governance requirements [DOC-POL-001], first-line operations must enforce documented control standards, subject to second-line validation and ongoing KRI threshold tracking.\n\n> **Advisory Governance Note:** This AI-generated assessment is prepared for Risk Analyst review [DOC-POL-001]. It represents an advisory summary of authorized records and does not constitute a final regulatory determination until approved by an authorized reviewer.",
+    "final_response": null,
+    "citations": [
+      "DOC-REG-001",
+      "DOC-CTL-001",
+      "DOC-POL-001"
+    ],
+    "severity_level": "Medium",
+    "status": "Pending Review",
+    "reviewed_by": null,
+    "analyst_notes": null,
+    "reviewed_at": null
+  }
+]
